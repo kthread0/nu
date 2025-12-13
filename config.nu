@@ -7,7 +7,7 @@
 # (or import) custom commands, or run any other startup tasks.
 # See https://www.nushell.sh/book/configuration.html
 #
-# Nushell sets "sensible defaults" for most configuration settings, 
+# Nushell sets "sensible defaults" for most configuration settings,
 # so your `config.nu` only needs to override these defaults if desired.
 #
 # You can open this file in your default editor using:
@@ -25,6 +25,3 @@ $env.config.completions = {
   sort: "smart"
   case_sensitive: true
 }
-
-$env.config.use_kitty_protocol = true
-
