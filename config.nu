@@ -25,3 +25,5 @@ $env.config.completions = {
   sort: "smart"
   case_sensitive: true
 }
+
+source $"($nu.cache-dir)/carapace.nu"
