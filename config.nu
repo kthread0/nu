@@ -26,4 +26,19 @@ $env.config.completions = {
   case_sensitive: true
 }
 
+$env.config.use_kitty_protocol = true
+$env.config.shell_integration.osc2 = true
+$env.config.shell_integration.osc7 = true
+$env.config.shell_integration.osc9_9 = true
+$env.config.shell_integration.osc133 = true
+$env.config.shell_integration.osc633 = true
+$env.config.shell_integration.reset_application_mode = true
+$env.config.bracketed_paste = true
+$env.config.use_ansi_coloring = true
+
+$env.config.display_errors.exit_code = true
+$env.config.display_errors.termination_signal = true
+
+$env.config.footer_mode = "auto"
+
 source $"($nu.cache-dir)/carapace.nu"
